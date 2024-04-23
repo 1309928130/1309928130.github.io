@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 1"
+title: "Evaluate User Satisfaction for Urban Design of Railway Station Areas: An Assessment Framework Using Agent-Based Simulation"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'This paper developes an assessment framework to digitally evaluation the user satisfaction in railway station areas'
+date: 2024
+venue: 'SSRN preprint'
+paperurl: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4781924'
+citation: 'chen, enshan and van der Spek, Stefan and Triggianese, Manuela and van der Hoeven, Frank, Evaluate User Satisfaction for Urban Design of Railway Station Areas: An Assessment Framework Using Agent-Based Simulation. Available at SSRN: https://ssrn.com/abstract=4781924 or http://dx.doi.org/10.2139/ssrn.4781924'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
