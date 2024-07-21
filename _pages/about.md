@@ -26,7 +26,7 @@ Recent research outcomes
 [![](https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Websnap1.png)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
 
-[![](/images/Websnap.png)](http://c1309928130.pythonanywhere.com/?dimension=All)
+[![](/images/Websnap1 (1).png)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
 
 
