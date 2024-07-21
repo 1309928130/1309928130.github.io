@@ -18,3 +18,20 @@ Research interests
 
 Enshan's research focuses on railway station development, mobility resilience, public space flexibility, simulation, computer vision. His ongoing PhD project is titled as ‘Station-City Integration in China — towards public space flexibility and mobility resilience’.
 
+
+
+Recent research outcomes
+======
+
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1; margin-right: 10px;">
+    <a href="http://c1309928130.pythonanywhere.com/?dimension=All">
+      <img src="https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Websnap1.png" style="width: 100%; max-width: 100%; height: auto;" alt="Image 1">
+    </a>
+  </div>
+  <div style="flex: 1; margin-left: 10px;">
+    <a href="http://example.com">
+      <img src="https://github.com/1309928130/Paper3_SupplementaryMaterials/blob/main/Websnap1.png" style="width: 100%; max-width: 100%; height: auto;" alt="Image 2">
+    </a>
+  </div>
+</div>
