@@ -12,9 +12,9 @@ title                    : "Enshan Chen"
 title_separator          : "-"
 name                     : &name "Enshan Chen"
 description              : &description "personal description"
-url                      : https://1309928130.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://1309928130.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "1309928130/1309928130.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -200,7 +200,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: false
+    output: true
     permalink: /:collection/:path/
   publications:
     output: true
@@ -209,7 +209,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: false
+    output: true
     permalink: /:collection/:path/
 
 
