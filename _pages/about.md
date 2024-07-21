@@ -31,5 +31,5 @@ Assessment Framework of User Satisfaction for Urban Design of Railway Station Ar
 [![](/images/8_assessmentframework.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7211705665910640643/)
 
 <a href="https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and">
-    <img src="/images/BarcelonaPoster_compressed_1.jpg" alt="Barcelona Poster" style="width:50%;">
+    <img src="/images/BarcelonaPoster_compressed_1.jpg" alt="Barcelona Poster" style="width:50%; text-alignment=center">
 </a>
