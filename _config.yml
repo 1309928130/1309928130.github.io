@@ -22,10 +22,10 @@ repository               : "1309928130/1309928130.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Enshan Chen2"
+  name             : "Enshan Chen"
   pronouns         : # example: "she/her"  
-  bio              : "2PhD candidate in Architecture and Built Environment Faculty"
-  location         : "2The Netherlands"
+  bio              : "PhD candidate in Architecture and Built Environment Faculty"
+  location         : "The Netherlands"
   employer         : "TU Delft"
   uri              : # URL
   email            : "e.chen@tudelft.nl" 
@@ -200,7 +200,7 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
@@ -209,7 +209,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
