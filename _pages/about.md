@@ -24,7 +24,7 @@ Recent research outcomes
 ======
 
 
-[![](/images/Websnap1 (1).jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
+[![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
 
 
