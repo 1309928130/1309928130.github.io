@@ -9,11 +9,13 @@ author_profile: true
   <div class="wordwrap">Please see all my publications on <a href="{{site.author.googlescholar}}"> Google Scholar profile</a>.</div>
 {% endif %}
 
-[//]: # ({% include base_path %})
 
-[//]: # ()
-[//]: # ({% for post in site.publications reversed %})
 
-[//]: # (  {% include archive-single.html %})
 
-[//]: # ({% endfor %})
+<!--
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+-->
