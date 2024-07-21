@@ -11,7 +11,7 @@ redirect_from:
 
 Enshan’s work has been published in several journals (in Chinese) and conferences.
 
-He holds a Bachelor of Architecture (B,Arch) degree from Chongqing University (2016) and a MSc from Tongji University (2021). He worked in Shanghai Tianhua Architecture Planning & Engineering doing projects of shopping malls and residential districts during 2016-2017.
+He holds a Bachelor of Architecture (BArch) degree from Chongqing University (2016) and a MSc from Tongji University (2021). He worked in Shanghai Tianhua Architecture Planning & Engineering doing projects of shopping malls and residential districts during 2016-2017.
 
 Research interests
 ======
