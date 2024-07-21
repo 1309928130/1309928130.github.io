@@ -30,6 +30,8 @@ Design Principles for Demand-Responsive Railway Station Areas
 Assessment Framework of User Satisfaction for Urban Design of Railway Station Areas
 [![](/images/8_assessmentframework.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7211705665910640643/)
 
+
+Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility
 <div style="text-align: center;">
     <a href="https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and">
         <img src="/images/BarcelonaPoster_compressed_1.jpg" alt="Barcelona Poster" style="width:100%;">
