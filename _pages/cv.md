@@ -17,9 +17,9 @@ Education
 
 Work experience
 ======
-* 2016-2017: Architect
-  * Shanghai Tianhua Architecture Planning & Engineering
+* 2016-2018: Architect
   * Shanghai Fudan Urban Planning and Architectural Design Institute
+  * Shanghai Tianhua Architecture Planning & Engineering
 
 
 
