@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Enshan Chen is currently a PhD candidate"
+title: "Enshan Chen Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
