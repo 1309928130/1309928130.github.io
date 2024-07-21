@@ -23,9 +23,9 @@ Enshan's research focuses on railway station development, mobility resilience, p
 Recent research outcomes
 ======
 
-
+Design Principles for Demand-Responsive Railway Station Areas
 [![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
 
-
+Assessment Framework of User Satisfaction for Urban Design of Railway Station Areas
 [![](/images/8_assessmentframework.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7211705665910640643/)
