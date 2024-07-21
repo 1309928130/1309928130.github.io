@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Urbanism, TUD University, 2025 (expected)
+* Ph.D. in Urbanism, TUD University, 2025 (expected)
 * M.S. in Architecture, Tongji University, 2021
 * B.S. in Architecture, Chongqing University, 2016
 
