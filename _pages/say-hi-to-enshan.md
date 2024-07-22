@@ -23,7 +23,7 @@ Feel free to leave a comment below to say hi or share your thoughts!
     };
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
     var d = document, s = d.createElement('script');
-    s.src = 'https://YOUR_DISQUS_SHORTNAME_HERE.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+    s.src = 'https://enshan.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
