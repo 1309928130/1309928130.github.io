@@ -20,7 +20,7 @@ Feel free to share your thoughts!
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
   
     var disqus_config = function () {
-    this.page.url = 'https://1309928130.github.io{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.url = '{{ site.url }}{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = '{{ page.url }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 
