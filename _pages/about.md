@@ -2,7 +2,7 @@
 permalink: /
 title: "Enshan Chen Personal Website"
 author_profile: true
-comments: true
+
 
 redirect_from: 
   - /about/
