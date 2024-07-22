@@ -7,7 +7,7 @@ author_profile: true
 
 # Say Hi to Enshan
 
-Feel free to leave a comment below to say hi or share your thoughts!
+Feel free to share your thoughts!
 
 <div id="disqus_thread"></div>
 <script>
