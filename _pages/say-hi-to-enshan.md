@@ -9,6 +9,7 @@ Feel free to share your thoughts!
 
 {% if page.comments %}
 
+strange, nothing shows
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -30,3 +31,4 @@ Feel free to share your thoughts!
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 {% endif %}
+
