@@ -70,7 +70,7 @@ Comment block test
 {% endif %}
 
 <script src="https://1309928130.github.io/"
-        repo="[1309928130.github.io ]"
+        repo="[1309928130.github.io]"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
