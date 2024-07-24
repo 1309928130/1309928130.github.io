@@ -7,9 +7,10 @@ author_profile: true
 
 Feel free to share your thoughts!
 
+
+
 {% if page.comments %}
 
-strange, nothing shows
 <div id="disqus_thread"></div>
 <script>
     /**
