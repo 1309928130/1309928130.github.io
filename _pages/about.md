@@ -99,3 +99,12 @@ Comment block test
 
 <script id="dsq-count-scr" src="//enshan.disqus.com/count.js" async></script>
 
+
+<script src="https://utteranc.es/client.js"
+        repo="1309928130/1309928130.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
