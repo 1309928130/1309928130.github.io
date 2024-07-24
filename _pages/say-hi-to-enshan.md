@@ -8,7 +8,7 @@ author_profile: true
 Feel free to share your thoughts!
 
 
-
+<!--
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
@@ -32,4 +32,27 @@ Feel free to share your thoughts!
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 {% endif %}
+-->
 
+
+
+
+<script src="https://1309928130.github.io/"
+        repo="[1309928130.github.io]"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
+<script id="dsq-count-scr" src="//enshan.disqus.com/count.js" async></script>
+
+
+<script src="https://utteranc.es/client.js"
+        repo="1309928130/1309928130.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
