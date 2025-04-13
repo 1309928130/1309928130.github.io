@@ -26,8 +26,8 @@ Software (Rhino Plugins) developed
 ======
 
 - <img src="/images/panda_modeling.png" width="50"> [PandaModelling](https://www.food4rhino.com/en/app/pandamodeling-ai-modeling) [A tool to automatically measure density-related values]
-- <img src="/images/PandaAnalytics.png" width="50"> [PandaMeasuring](https://www.food4rhino.com/en/app/pandamodeling-ai-modeling) [A tool using agent-based simulation (movement and visual) to assess pedestrian experiences]
-- <img src="/images/PandaCalculator.png" width="50"> [PandaAnalytics](https://github.com/1309928130/donation/blob/main/PandaAnalytics.md) [A tool to generate models using large language models]
+- <img src="/images/PandaAnalytics.png" width="50"> [PandaMeasuring](https://github.com/1309928130/donation/blob/main/PandaAnalytics.md) [A tool using agent-based simulation (movement and visual) to assess pedestrian experiences]
+- <img src="/images/PandaCalculator.png" width="50"> [PandaAnalytics](https://github.com/1309928130/donation/blob/main/PandaMeasuring.md) [A tool to generate models using large language models]
 
 
 
