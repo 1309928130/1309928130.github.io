@@ -6,7 +6,9 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">Please see all my publications on <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.</div>
+  <div class="wordwrap">Please see all my publications on <a href="https://www.researchgate.net/profile/Chen-Enshan/research">ResearchGate</a>.</div>
+  <div class="wordwrap">Or, <a href="{{site.author.googlescholar}}">Google Scholar profile</a>.</div>
+  
 {% endif %}
 
 
