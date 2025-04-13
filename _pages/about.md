@@ -22,7 +22,7 @@ Research interests
 Enshan's research focuses on railway station development, mobility resilience, public space flexibility, simulation, computer vision. His ongoing PhD project is titled as ‘Station-City Integration in China — towards public space flexibility and mobility resilience’.
 
 
-Software (Rhino Plugins) developed by me
+Software (Rhino Plugins) developed
 ======
 
 - <img src="/images/panda_modeling.png" width="50"> [PandaModelling](https://www.food4rhino.com/en/app/pandamodeling-ai-modeling) [A tool to automatically measure density-related values]
