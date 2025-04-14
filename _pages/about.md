@@ -36,15 +36,14 @@ Recent research outcomes
 ======
 
 
-- Design Principles for Demand-Responsive Railway Station Areas
+- [Design Principles for Demand-Responsive Railway Station Areas](http://c1309928130.pythonanywhere.com/?dimension=All)
 [![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
 
-- Assessment Framework of User Satisfaction for Urban Design of Railway Station Areas
-[![](/images/8_assessmentframework.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7211705665910640643/)
+- [Assessment Framework of User Satisfaction for Urban Design of Railway Station Areas](http://c1309928130.pythonanywhere.com/?dimension=All)
+[![](/images/8_assessmentframework.jpg)](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
 
-
-- Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility
+- [Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility](https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and)
 <div style="text-align: center;">
     <a href="https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and">
         <img src="/images/BarcelonaPoster_compressed_1 copy.jpg" alt="Barcelona Poster" style="width:100%;">
@@ -54,7 +53,7 @@ Recent research outcomes
 
 
 
-Comment block test
+
 {% if page.comments %}
 
 <div id="disqus_thread"></div>
