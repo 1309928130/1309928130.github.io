@@ -17,28 +17,43 @@ He holds a Bachelor of Architecture (BArch) degree from Chongqing University (20
 Research interests
 ======
 
-Enshan's research focuses on urban design, railway station development, mobility resilience, public space flexibility, agent-based simulation, and computer vision. His ongoing PhD project is titled ‘Towards Fluctuation-supportive Station areas -- The problems, assessment, and guidelines.’
+Enshan's research involves urban design, railway station development, mobility resilience, public space flexibility, agent-based simulation, and computer vision. His ongoing PhD project is titled ‘_Towards Fluctuation-supportive Station Areas - The Problems, assessment, and Guidelines_.’ This PhD project is transdisciplinary, with knowledge from urban design, crowd movement, environment psychology, and computer science. Currently, he is particularly interested in AI applications in design and exploring how large language models can support better urban analytics and computational design.
 
 
 Software (Rhino Plugins) developed
 ======
 
 - <img src="/images/panda_modeling.png" width="50"> [PandaModelling](https://www.food4rhino.com/en/app/pandamodeling-ai-modeling) [A tool to automatically measure density-related values]
-- <img src="/images/PandaAnalytics.png" width="50"> [PandaMeasuring](https://github.com/1309928130/donation/blob/main/PandaAnalytics.md) [A tool using agent-based simulation (movement and visual) to assess pedestrian experiences]
-- <img src="/images/PandaCalculator.png" width="50"> [PandaAnalytics](https://github.com/1309928130/donation/blob/main/PandaMeasuring.md) [A tool to generate models using large language models]
+- <img src="/images/PandaCalculator.png" width="50"> [PandaMeasuring](https://www.food4rhino.com/en/app/pandameasuring?lang=en) [A tool using agent-based simulation (movement and visual) to assess pedestrian experiences]
+- <img src="/images/PandaAnalytics.png" width="50"> [PandaAnalytics](https://github.com/1309928130/donation/blob/main/PandaAnalytics.md) [A tool to generate models using large language models]
 
 
 
 
-Recent research outcomes
+Research outcomes
 ======
+**To be published**
 
+- Problem statement of the overcrowding and emptiness in railway station areas: Case studies 【PhD project work package 1-a】
 
-- [Design Principles for Demand-Responsive Railway Station Areas](http://c1309928130.pythonanywhere.com/?dimension=All)
+- Inquiring fluctuation-supportive spatial solutions addressing overcrowding and emptiness in railway station areas: A literature review【PhD project work package 1-b】
+
+- Investigating the design principles for fluctuation-supportive Railway Station Areas【PhD project work package 3】
+
+- Assessing visual experience: Evidence extracted from image segmentation
+
+- Assessing fluctuation-supportive design principles through workshop and agent-based simulation: Six scenarios of Sloterdijk station area, Amsterdam
+
+- A review of urban design research on railway station areas in the European context: “Vision description - place questioning - spatial intervention - humanistic reflection” (In Chinese)
+
+- Identification of Areas for Optimization of Public Transit Arrivals and Departures within High-Speed Railway Stations Based on Multi-source Data -- A Case Study of Shanghai Hongqiao High-Speed Railway Station Area (In Chinese).
+
+**Published**
+- [Design Principles for Demand-Responsive Railway Station Areas](https://www.researchgate.net/publication/387495830_Investigating_the_Design_Principles_for_Fluctuation-Supportive_Railway_Station_Areas)
 [![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
 
-- [Assessment Framework of User Satisfaction for Urban Design of Railway Station Areas](http://c1309928130.pythonanywhere.com/?dimension=All)
+- [Assessment Framework of User Satisfaction for Urban Design of Railway Station Areas](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
 [![](/images/8_assessmentframework.jpg)](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
 
 - [Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility](https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and)
