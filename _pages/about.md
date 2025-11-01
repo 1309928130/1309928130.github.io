@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 ---
 
-[Enshan](https://urbandesigntudelft.nl/team/enshan-chen/) is currently a postdoc researcher at the Decision Science for Mobility lab, of Transport Mobility and Logistics section, of the Transport and Planning department, Civil Engineering and Geosciences faculty, at TU Delft. 
+[Enshan](https://urbandesigntudelft.nl/team/enshan-chen/) is currently a postdoc researcher at the [Decision Science for Mobility lab](https://www.tudelft.nl/citg/over-faculteit/afdelingen/transport-planning/labs/decision-science-for-mobility-lab), of the Transport Mobility and Logistics section, of the Transport and Planning department, Civil Engineering and Geosciences faculty, at TU Delft. 
 
 He is also a PhD candidate at the Urban Design section, of the Urbanism department, of the Architecture and the Built Environment faculty, at TU Delft. 
 
