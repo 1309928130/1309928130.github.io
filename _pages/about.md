@@ -64,8 +64,6 @@ Research outcomes
 
 - Assessing visual experience: Evidence extracted from image segmentation
 
-- Assessing fluctuation-supportive design principles through workshop and agent-based simulation: Six scenarios of Sloterdijk station area, Amsterdam
-
 - A review of urban design research on railway station areas in the European context: “Vision description - place questioning - spatial intervention - humanistic reflection” (In Chinese)
 
 - Identification of Areas for Optimization of Public Transit Arrivals and Departures within High-Speed Railway Stations Based on Multi-source Data -- A Case Study of Shanghai Hongqiao High-Speed Railway Station Area (In Chinese).
