@@ -37,15 +37,14 @@ Research outcomes
 
 **Published**
 
-[Enshan, C., van der Spek, S., Tian, A., Triggianese, M., & van der Hoeven, F. (2025). Evaluate design principles for flexible use of railway station areas: Through research-by-design and agent-based simulation. Journal of Building Engineering, 112, 113775.](https://doi.org/10.1016/j.jobe.2025.113775)
+- [Enshan, C., van der Spek, S., Tian, A., Triggianese, M., & van der Hoeven, F. (2025). Evaluate design principles for flexible use of railway station areas: Through research-by-design and agent-based simulation. Journal of Building Engineering, 112, 113775.](https://doi.org/10.1016/j.jobe.2025.113775)
 
+- [Enshan, C., Van de Spek, S., Van der Hoeven, F., & Triggianese, M. (2025). Evaluate user satisfaction for urban design of railway station areas: An assessment framework using agent-based simulation. Environmental Impact Assessment Review, 110, 107685.](https://doi.org/10.1016/j.eiar.2024.107685)
+[![](/images/8_assessmentframework.jpg)](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
 
 - [Design Principles for Demand-Responsive Railway Station Areas](https://www.researchgate.net/publication/387495830_Investigating_the_Design_Principles_for_Fluctuation-Supportive_Railway_Station_Areas)
 [![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
-
-- [Enshan, C., Van de Spek, S., Van der Hoeven, F., & Triggianese, M. (2025). Evaluate user satisfaction for urban design of railway station areas: An assessment framework using agent-based simulation. Environmental Impact Assessment Review, 110, 107685.]([https://www.sciencedirect.com/science/article/pii/S0195925524002725](https://doi.org/10.1016/j.eiar.2024.107685)
-[![](/images/8_assessmentframework.jpg)](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
 
 - [Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility](https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and)
 <div style="text-align: center;">
