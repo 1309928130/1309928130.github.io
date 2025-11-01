@@ -34,6 +34,27 @@ Software (Rhino Plugins) developed
 
 Research outcomes
 ======
+
+**Published**
+
+[Enshan, C., van der Spek, S., Tian, A., Triggianese, M., & van der Hoeven, F. (2025). Evaluate design principles for flexible use of railway station areas: Through research-by-design and agent-based simulation. Journal of Building Engineering, 112, 113775.](https://doi.org/10.1016/j.jobe.2025.113775)
+
+
+- [Design Principles for Demand-Responsive Railway Station Areas](https://www.researchgate.net/publication/387495830_Investigating_the_Design_Principles_for_Fluctuation-Supportive_Railway_Station_Areas)
+[![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
+
+
+- [Enshan, C., Van de Spek, S., Van der Hoeven, F., & Triggianese, M. (2025). Evaluate user satisfaction for urban design of railway station areas: An assessment framework using agent-based simulation. Environmental Impact Assessment Review, 110, 107685.]([https://www.sciencedirect.com/science/article/pii/S0195925524002725](https://doi.org/10.1016/j.eiar.2024.107685)
+[![](/images/8_assessmentframework.jpg)](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
+
+- [Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility](https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and)
+<div style="text-align: center;">
+    <a href="https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and">
+        <img src="/images/BarcelonaPoster_compressed_1 copy.jpg" alt="Barcelona Poster" style="width:100%;">
+    </a>
+</div>
+
+
 **To be published**
 
 - Problem statement of the overcrowding and emptiness in railway station areas: Case studies 【PhD project work package 1-a】
@@ -50,20 +71,7 @@ Research outcomes
 
 - Identification of Areas for Optimization of Public Transit Arrivals and Departures within High-Speed Railway Stations Based on Multi-source Data -- A Case Study of Shanghai Hongqiao High-Speed Railway Station Area (In Chinese).
 
-**Published**
-- [Design Principles for Demand-Responsive Railway Station Areas](https://www.researchgate.net/publication/387495830_Investigating_the_Design_Principles_for_Fluctuation-Supportive_Railway_Station_Areas)
-[![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
 
-
-- [Assessment Framework of User Satisfaction for Urban Design of Railway Station Areas](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
-[![](/images/8_assessmentframework.jpg)](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
-
-- [Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility](https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and)
-<div style="text-align: center;">
-    <a href="https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and">
-        <img src="/images/BarcelonaPoster_compressed_1 copy.jpg" alt="Barcelona Poster" style="width:100%;">
-    </a>
-</div>
 
 
 
