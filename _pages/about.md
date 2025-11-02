@@ -14,7 +14,7 @@ redirect_from:
 
 He is also a PhD candidate at the [Urban Design section](https://urbandesigntudelft.nl/), of the Urbanism department, of the Architecture and the Built Environment faculty, at TU Delft. 
 
-He holds a Bachelor of Architecture (BArch) degree from Chongqing University (2016) and an MSc from Tongji University (2021). He worked in Shanghai Tianhua Architecture Planning & Engineering doing projects of shopping malls and residential districts during 2016-2017.
+He holds an MSc from Tongji University (2021) and a Bachelor of Architecture (BArch) degree from Chongqing University (2016). He worked in Shanghai Tianhua Architecture Planning & Engineering, doing projects of shopping malls and residential districts during 2016-2017.
 
 Research interests
 ======
