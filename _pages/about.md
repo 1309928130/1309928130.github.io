@@ -19,7 +19,7 @@ He holds a Bachelor of Architecture (BArch) degree from Chongqing University (20
 Research interests
 ======
 
-Enshan's research involves urban design, railway station development, mobility resilience, public space flexibility, agent-based simulation, and computer vision. His ongoing PhD project is titled ‘_Towards Fluctuation-supportive Station Areas - The Problems, assessment, and Guidelines_.’ This PhD project is transdisciplinary, with knowledge from urban design, crowd movement, environment psychology, and computer science. Currently, he is particularly interested in AI applications in design and exploring how large language models can support better urban analytics and computational design.
+Enshan's research involves urban design, railway station development, mobility resilience, public space flexibility, agent-based simulation, and computer vision. His ongoing PhD project is titled ‘_Towards Fluctuation-supportive Station Areas - The Problems, assessment, and Guidelines_.’ This PhD project is transdisciplinary, with knowledge from urban design, crowd movement, environmental psychology, and computer science. Currently, he is particularly interested in AI applications in transportation and spatial design.
 
 
 Software (Rhino Plugins) developed
