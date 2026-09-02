@@ -89,15 +89,6 @@
     opacity: 1;
   }
 
-  .digital-portfolio-tooltip-title {
-    margin: 0 0 4px;
-    font-family: "Roboto", Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    color: #111;
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-  }
-
   .digital-portfolio-tooltip-desc {
     margin: 0;
     font-family: "Roboto", Arial, sans-serif;
@@ -120,16 +111,15 @@
              rel="noopener noreferrer">
             <img src="{{ app.image | prepend: base_path }}"
                  alt="{{ app.title }}">
-            <div class="digital-portfolio-tooltip">
-              <p class="digital-portfolio-tooltip-title">{{ app.title }}</p>
-              {% if app.description %}
+            {% if app.description %}
+              <div class="digital-portfolio-tooltip">
                 <p class="digital-portfolio-tooltip-desc">{{ app.description }}</p>
-              {% endif %}
-            </div>
+              </div>
+            {% endif %}
           </a>
           <span class="digital-portfolio-label">{{ app.title }}</span>
           {% if app.link %}
-            <a class="digital-portfolio-link-label" href="{{ app.link.url }}" target="_blank" rel="noopener noreferrer">{{ app.link.label }} ↗</a>
+            <a class="digital-portfolio-link-label" href="{{ app.link.url }}" target="_blank" rel="noopener noreferrer">{{ app.link.label }}{% if app.link.private %} (private){% endif %} ↗</a>
           {% endif %}
         </div>
       {% endfor %}

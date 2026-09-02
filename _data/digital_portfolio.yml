@@ -6,7 +6,7 @@ categories:
     apps:
       - title: "Design Principles Gallery"
         image: "/images/portfolio/design_principles.png"
-        url: "https://design-principles.onrender.com/"
+        url: "https://1309928130.github.io/design-principles/"
         link:
           url: "https://github.com/1309928130/design-principles"
           label: "GitHub"
@@ -28,6 +28,15 @@ categories:
           label: "GitHub"
         description: "YOLOv5 + DeepSORT multi-line pedestrian counting with CSV export"
 
+      - title: "Macroscopic Pedestrian Model"
+        image: "/images/portfolio/Pedmodel.png"
+        url: "https://gitlab.tudelft.nl/xcarcity/digital-twin/en-shan/macroscopic-pedestrian-model"
+        link:
+          url: "https://gitlab.tudelft.nl/xcarcity/digital-twin/en-shan/macroscopic-pedestrian-model"
+          label: "GitLab"
+          private: true
+        description: "Macroscopic pedestrian flow model for station areas (private repository)"
+
       - title: "PandaModeling"
         image: "/images/portfolio/tu_pian_5.png"
         url: "https://www.food4rhino.com/en/app/pandamodeling-ai-modeling"
@@ -47,6 +56,9 @@ categories:
       - title: "PandaAnalytics"
         image: "/images/portfolio/pandaanalytics_1.png"
         url: "https://www.food4rhino.com/en/app/pandaanalytics"
+        link:
+          url: "https://www.food4rhino.com/en/app/pandaanalytics"
+          label: "Food4Rhino"
         description: "Rhino plugin to generate models using large language models"
 
   - name: "Personal"
@@ -82,3 +94,12 @@ categories:
           url: "https://github.com/1309928130/TOOLS_images-to-pdf"
           label: "GitHub"
         description: "Batch convert images in a folder to individual PDF files"
+
+      - title: "Quant Trading"
+        image: "/images/portfolio/quant_trading.png"
+        url: "https://github.com/1309928130/Quant-trading"
+        link:
+          url: "https://github.com/1309928130/Quant-trading"
+          label: "GitHub"
+          private: true
+        description: "Quantitative trading research and backtesting (private repository)"
