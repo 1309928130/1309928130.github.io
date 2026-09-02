@@ -18,7 +18,7 @@ apps:
     image: "/images/portfolio/dutch_training.png"
     url: "https://dutch-sentence-trainer.web.app/"
     repo: "https://github.com/1309928130/dutch-trainer"
-    description: "Delftse methode Dutch listening, translation, and progress tracking"
+    description: "Dutch listening, translation, and progress tracking"
 
   - title: "Optiver Prep"
     image: "/images/portfolio/optiver-prep.svg"
