@@ -26,12 +26,6 @@ apps:
     repo: "https://github.com/1309928130/optiver-prep"
     description: "Optiver online assessment practice questions and progress tracking"
 
-  - title: "AMUSE — User Experience Assessment"
-    image: "/images/portfolio/assess_user_experience.png"
-    url: "https://github.com/1309928130/MultSensory-Digital-Twins"
-    repo: "https://github.com/1309928130/MultSensory-Digital-Twins"
-    description: "Assessing Multisensory User Experience — pedestrian flow, sunlight, wind, and pollution simulation"
-
   - title: "Multisensory Digital Twins"
     image: "/images/portfolio/digital_twin.png"
     url: "https://github.com/1309928130/MultSensory-Digital-Twins"
@@ -57,17 +51,17 @@ apps:
     description: "Batch convert images in a folder to individual PDF files"
 
   - title: "PandaModeling"
-    image: "/images/panda_modeling.png"
+    image: "/images/portfolio/tu_pian_5.png"
     url: "https://www.food4rhino.com/en/app/pandamodeling-ai-modeling"
     description: "Rhino plugin to automatically measure density-related values"
 
   - title: "PandaMeasuring"
-    image: "/images/PandaCalculator.png"
+    image: "/images/portfolio/pandameasuring.jpg"
     url: "https://www.food4rhino.com/en/app/pandameasuring"
     description: "Rhino plugin using agent-based simulation to assess pedestrian experiences"
 
   - title: "PandaAnalytics"
-    image: "/images/PandaAnalytics.png"
+    image: "/images/portfolio/pandaanalytics_1.png"
     url: "https://www.food4rhino.com/en/app/pandaanalytics"
     repo: "https://github.com/1309928130/donation/blob/main/PandaAnalytics.md"
     description: "Rhino plugin to generate models using large language models"
