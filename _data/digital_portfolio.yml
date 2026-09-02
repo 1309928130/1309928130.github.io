@@ -53,7 +53,7 @@ categories:
         description: "Optiver online assessment practice questions and progress tracking"
 
       - title: "Scroll Capture"
-        image: "/images/portfolio/scroll-capture.svg"
+        image: "/images/portfolio/scroll_snap.png"
         url: "https://github.com/1309928130/TOOLS_scroll-capture"
         repo: "https://github.com/1309928130/TOOLS_scroll-capture"
         description: "Windows auto scroll-capture with region selection and OpenCV stitching"
