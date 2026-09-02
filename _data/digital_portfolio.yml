@@ -1,67 +1,65 @@
-# Digital portfolio — add new apps by copying one block below.
-#
-# image: path under /images/ (snapshot in images/portfolio/)
-# url: live app or primary link when the image is clicked
-# repo: optional GitHub repository URL (shown as "GitHub ↗" below the card)
-#
-# Tip: replace .svg placeholders with your own PNG screenshots when ready.
-# Live webpage previews via screenshot APIs are possible but unreliable — see README on the portfolio page.
+# Digital portfolio — organized by category.
+# Each app: title, image, url, optional repo, optional description
 
-apps:
-  - title: "Design Principles Gallery"
-    image: "/images/portfolio/design_principles.png"
-    url: "https://design-principles.onrender.com/"
-    repo: "https://github.com/1309928130/design-principles"
-    description: "Interactive gallery of design principles for fluctuation-responsive station areas"
+categories:
+  - name: "Professional"
+    apps:
+      - title: "Design Principles Gallery"
+        image: "/images/portfolio/design_principles.png"
+        url: "https://design-principles.onrender.com/"
+        repo: "https://github.com/1309928130/design-principles"
+        description: "Interactive gallery of design principles for fluctuation-responsive station areas"
 
-  - title: "Dutch Trainer"
-    image: "/images/portfolio/dutch_training.png"
-    url: "https://dutch-sentence-trainer.web.app/"
-    repo: "https://github.com/1309928130/dutch-trainer"
-    description: "Dutch listening, translation, and progress tracking"
+      - title: "Multisensory Digital Twins"
+        image: "/images/portfolio/digital_twin.png"
+        url: "https://github.com/1309928130/MultSensory-Digital-Twins"
+        repo: "https://github.com/1309928130/MultSensory-Digital-Twins"
+        description: "Digital twin workflow for multisensory urban experience assessment"
 
-  - title: "Optiver Prep"
-    image: "/images/portfolio/optiver-prep.svg"
-    url: "https://optiver-prep.web.app/"
-    repo: "https://github.com/1309928130/optiver-prep"
-    description: "Optiver online assessment practice questions and progress tracking"
+      - title: "Pedestrian Counting"
+        image: "/images/portfolio/pedestrian-counting.svg"
+        url: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
+        repo: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
+        description: "YOLOv5 + DeepSORT multi-line pedestrian counting with CSV export"
 
-  - title: "Multisensory Digital Twins"
-    image: "/images/portfolio/digital_twin.png"
-    url: "https://github.com/1309928130/MultSensory-Digital-Twins"
-    repo: "https://github.com/1309928130/MultSensory-Digital-Twins"
-    description: "Digital twin workflow for multisensory urban experience assessment"
+      - title: "PandaModeling"
+        image: "/images/portfolio/tu_pian_5.png"
+        url: "https://www.food4rhino.com/en/app/pandamodeling-ai-modeling"
+        description: "Rhino plugin to automatically measure density-related values"
 
-  - title: "Pedestrian Counting"
-    image: "/images/portfolio/pedestrian-counting.svg"
-    url: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
-    repo: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
-    description: "YOLOv5 + DeepSORT multi-line pedestrian counting with CSV export"
+      - title: "PandaMeasuring"
+        image: "/images/portfolio/pandameasuring.jpg"
+        url: "https://www.food4rhino.com/en/app/pandameasuring"
+        description: "Rhino plugin using agent-based simulation to assess pedestrian experiences"
 
-  - title: "Scroll Capture"
-    image: "/images/portfolio/scroll-capture.svg"
-    url: "https://github.com/1309928130/TOOLS_scroll-capture"
-    repo: "https://github.com/1309928130/TOOLS_scroll-capture"
-    description: "Windows auto scroll-capture with region selection and OpenCV stitching"
+      - title: "PandaAnalytics"
+        image: "/images/portfolio/pandaanalytics_1.png"
+        url: "https://www.food4rhino.com/en/app/pandaanalytics"
+        repo: "https://github.com/1309928130/donation/blob/main/PandaAnalytics.md"
+        description: "Rhino plugin to generate models using large language models"
 
-  - title: "Images to PDF"
-    image: "/images/portfolio/images-to-pdf.svg"
-    url: "https://github.com/1309928130/TOOLS_images-to-pdf"
-    repo: "https://github.com/1309928130/TOOLS_images-to-pdf"
-    description: "Batch convert images in a folder to individual PDF files"
+  - name: "Personal"
+    apps:
+      - title: "Dutch Trainer"
+        image: "/images/portfolio/dutch_training.png"
+        url: "https://dutch-sentence-trainer.web.app/"
+        repo: "https://github.com/1309928130/dutch-trainer"
+        description: "Dutch listening, translation, and progress tracking"
 
-  - title: "PandaModeling"
-    image: "/images/portfolio/tu_pian_5.png"
-    url: "https://www.food4rhino.com/en/app/pandamodeling-ai-modeling"
-    description: "Rhino plugin to automatically measure density-related values"
+      - title: "Optiver Prep"
+        image: "/images/portfolio/optiver-prep.svg"
+        url: "https://optiver-prep.web.app/"
+        repo: "https://github.com/1309928130/optiver-prep"
+        description: "Optiver online assessment practice questions and progress tracking"
 
-  - title: "PandaMeasuring"
-    image: "/images/portfolio/pandameasuring.jpg"
-    url: "https://www.food4rhino.com/en/app/pandameasuring"
-    description: "Rhino plugin using agent-based simulation to assess pedestrian experiences"
+      - title: "Scroll Capture"
+        image: "/images/portfolio/scroll-capture.svg"
+        url: "https://github.com/1309928130/TOOLS_scroll-capture"
+        repo: "https://github.com/1309928130/TOOLS_scroll-capture"
+        description: "Windows auto scroll-capture with region selection and OpenCV stitching"
 
-  - title: "PandaAnalytics"
-    image: "/images/portfolio/pandaanalytics_1.png"
-    url: "https://www.food4rhino.com/en/app/pandaanalytics"
-    repo: "https://github.com/1309928130/donation/blob/main/PandaAnalytics.md"
-    description: "Rhino plugin to generate models using large language models"
+      - title: "Images to PDF"
+        image: "/images/portfolio/images-to-pdf.svg"
+        url: "https://github.com/1309928130/TOOLS_images-to-pdf"
+        repo: "https://github.com/1309928130/TOOLS_images-to-pdf"
+        description: "Batch convert images in a folder to individual PDF files"

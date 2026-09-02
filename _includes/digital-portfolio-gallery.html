@@ -1,11 +1,24 @@
 {% include base_path %}
 
 <style>
+  .digital-portfolio-section {
+    margin: 2rem 0 2.5rem;
+  }
+
+  .digital-portfolio-section-title {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid #222;
+  }
+
   .digital-portfolio-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    margin: 1rem 0 2rem;
+    margin: 0 0 0.5rem;
   }
 
   .digital-portfolio-item {
@@ -95,26 +108,31 @@
   }
 </style>
 
-<div class="digital-portfolio-gallery">
-  {% for app in site.data.digital_portfolio.apps %}
-    <div class="digital-portfolio-item">
-      <a class="digital-portfolio-link"
-         href="{{ app.url }}"
-         target="_blank"
-         rel="noopener noreferrer">
-        <img src="{{ app.image | prepend: base_path }}"
-             alt="{{ app.title }}">
-        <div class="digital-portfolio-tooltip">
-          <p class="digital-portfolio-tooltip-title">{{ app.title }}</p>
-          {% if app.description %}
-            <p class="digital-portfolio-tooltip-desc">{{ app.description }}</p>
+{% for category in site.data.digital_portfolio.categories %}
+  <section class="digital-portfolio-section">
+    <h2 class="digital-portfolio-section-title">{{ category.name }}</h2>
+    <div class="digital-portfolio-gallery">
+      {% for app in category.apps %}
+        <div class="digital-portfolio-item">
+          <a class="digital-portfolio-link"
+             href="{{ app.url }}"
+             target="_blank"
+             rel="noopener noreferrer">
+            <img src="{{ app.image | prepend: base_path }}"
+                 alt="{{ app.title }}">
+            <div class="digital-portfolio-tooltip">
+              <p class="digital-portfolio-tooltip-title">{{ app.title }}</p>
+              {% if app.description %}
+                <p class="digital-portfolio-tooltip-desc">{{ app.description }}</p>
+              {% endif %}
+            </div>
+          </a>
+          <span class="digital-portfolio-label">{{ app.title }}</span>
+          {% if app.repo %}
+            <a class="digital-portfolio-repo" href="{{ app.repo }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
           {% endif %}
         </div>
-      </a>
-      <span class="digital-portfolio-label">{{ app.title }}</span>
-      {% if app.repo %}
-        <a class="digital-portfolio-repo" href="{{ app.repo }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-      {% endif %}
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </section>
+{% endfor %}
