@@ -47,7 +47,7 @@ categories:
         description: "Dutch listening, translation, and progress tracking"
 
       - title: "Optiver Prep"
-        image: "/images/portfolio/optiver-prep.svg"
+        image: "/images/portfolio/optiver.png"
         url: "https://optiver-prep.web.app/"
         repo: "https://github.com/1309928130/optiver-prep"
         description: "Optiver online assessment practice questions and progress tracking"
