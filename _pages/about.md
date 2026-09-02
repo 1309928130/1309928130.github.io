@@ -31,14 +31,6 @@ Software (Rhino Plugins) developed
 
 
 
-Digital portfolio
-======
-
-Small web apps and interactive tools built for research and learning. Click an image to open the live project.
-
-{% include digital-portfolio-gallery.html %}
-
-
 
 Research outcomes
 ======
