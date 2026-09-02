@@ -1,9 +1,11 @@
 ---
-layout: page
-title: Curriculum Vitae
 permalink: /cv/
+title: "Curriculum Vitae"
+author_profile: true
 ---
 
-<iframe src="/_pages/CV_Resume_2026_july.pdf" width="100%" height="1000px" style="border:none;"></iframe>
+## CV (July 2026)
 
-<p style="margin-top: 1em;">You can also <a href="/_pages/CV_Resume_2026_july.pdf" target="_blank">download the CV as a PDF</a>.</p>
+<iframe src="/_pages/CV_Resume_2026_july.pdf" width="100%" height="900px" style="border:1px solid #ddd; border-radius:4px;"></iframe>
+
+<p><a href="/_pages/CV_Resume_2026_july.pdf" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a></p>
