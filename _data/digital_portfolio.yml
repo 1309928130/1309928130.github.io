@@ -1,5 +1,5 @@
 # Digital portfolio — organized by category.
-# Each app: title, image, url, optional repo, optional description
+# Each app: title, image, url (main click), optional link (label + url below card), optional description
 
 categories:
   - name: "Professional"
@@ -7,35 +7,46 @@ categories:
       - title: "Design Principles Gallery"
         image: "/images/portfolio/design_principles.png"
         url: "https://design-principles.onrender.com/"
-        repo: "https://github.com/1309928130/design-principles"
+        link:
+          url: "https://github.com/1309928130/design-principles"
+          label: "GitHub"
         description: "Interactive gallery of design principles for fluctuation-responsive station areas"
 
       - title: "Multisensory Digital Twins"
         image: "/images/portfolio/digital_twin.png"
         url: "https://github.com/1309928130/MultSensory-Digital-Twins"
-        repo: "https://github.com/1309928130/MultSensory-Digital-Twins"
+        link:
+          url: "https://github.com/1309928130/MultSensory-Digital-Twins"
+          label: "GitHub"
         description: "Digital twin workflow for multisensory urban experience assessment"
 
       - title: "Pedestrian Counting"
         image: "/images/portfolio/pedestrian-counting.png"
         url: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
-        repo: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
+        link:
+          url: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
+          label: "GitHub"
         description: "YOLOv5 + DeepSORT multi-line pedestrian counting with CSV export"
 
       - title: "PandaModeling"
         image: "/images/portfolio/tu_pian_5.png"
         url: "https://www.food4rhino.com/en/app/pandamodeling-ai-modeling"
+        link:
+          url: "https://www.food4rhino.com/en/app/pandamodeling-ai-modeling"
+          label: "Food4Rhino"
         description: "Rhino plugin to automatically measure density-related values"
 
       - title: "PandaMeasuring"
         image: "/images/portfolio/pandameasuring.jpg"
         url: "https://www.food4rhino.com/en/app/pandameasuring"
+        link:
+          url: "https://www.food4rhino.com/en/app/pandameasuring"
+          label: "Food4Rhino"
         description: "Rhino plugin using agent-based simulation to assess pedestrian experiences"
 
       - title: "PandaAnalytics"
         image: "/images/portfolio/pandaanalytics_1.png"
         url: "https://www.food4rhino.com/en/app/pandaanalytics"
-        repo: "https://github.com/1309928130/donation/blob/main/PandaAnalytics.md"
         description: "Rhino plugin to generate models using large language models"
 
   - name: "Personal"
@@ -43,23 +54,31 @@ categories:
       - title: "Dutch Trainer"
         image: "/images/portfolio/dutch_training.png"
         url: "https://dutch-sentence-trainer.web.app/"
-        repo: "https://github.com/1309928130/dutch-trainer"
+        link:
+          url: "https://dutch-sentence-trainer.web.app/"
+          label: "Firebase"
         description: "Dutch listening, translation, and progress tracking"
 
       - title: "Optiver Prep"
         image: "/images/portfolio/optiver.png"
         url: "https://optiver-prep.web.app/"
-        repo: "https://github.com/1309928130/optiver-prep"
+        link:
+          url: "https://optiver-prep.web.app/"
+          label: "Firebase"
         description: "Optiver online assessment practice questions and progress tracking"
 
       - title: "Scroll Capture"
         image: "/images/portfolio/scroll_snap.png"
         url: "https://github.com/1309928130/TOOLS_scroll-capture"
-        repo: "https://github.com/1309928130/TOOLS_scroll-capture"
+        link:
+          url: "https://github.com/1309928130/TOOLS_scroll-capture"
+          label: "GitHub"
         description: "Windows auto scroll-capture with region selection and OpenCV stitching"
 
       - title: "Images to PDF"
         image: "/images/portfolio/images-to-pdf.svg"
         url: "https://github.com/1309928130/TOOLS_images-to-pdf"
-        repo: "https://github.com/1309928130/TOOLS_images-to-pdf"
+        link:
+          url: "https://github.com/1309928130/TOOLS_images-to-pdf"
+          label: "GitHub"
         description: "Batch convert images in a folder to individual PDF files"

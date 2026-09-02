@@ -62,7 +62,7 @@
     line-height: 1.3;
   }
 
-  .digital-portfolio-repo {
+  .digital-portfolio-link-label {
     display: block;
     margin-top: 4px;
     font-size: 0.8rem;
@@ -128,8 +128,8 @@
             </div>
           </a>
           <span class="digital-portfolio-label">{{ app.title }}</span>
-          {% if app.repo %}
-            <a class="digital-portfolio-repo" href="{{ app.repo }}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          {% if app.link %}
+            <a class="digital-portfolio-link-label" href="{{ app.link.url }}" target="_blank" rel="noopener noreferrer">{{ app.link.label }} ↗</a>
           {% endif %}
         </div>
       {% endfor %}
