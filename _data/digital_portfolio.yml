@@ -17,7 +17,7 @@ categories:
         description: "Digital twin workflow for multisensory urban experience assessment"
 
       - title: "Pedestrian Counting"
-        image: "/images/portfolio/pedestrian-counting.svg"
+        image: "/images/portfolio/pedestrian-counting.png"
         url: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
         repo: "https://github.com/1309928130/yolov5-deepsort-pedestrian-counting"
         description: "YOLOv5 + DeepSORT multi-line pedestrian counting with CSV export"
