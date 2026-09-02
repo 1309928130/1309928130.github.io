@@ -1,0 +1,17 @@
+# Digital portfolio — add new apps by copying one block below.
+# image: path under /images/ (snapshot or thumbnail)
+# url: live app or demo page (primary link when image is clicked)
+# repo: optional GitHub repository URL
+
+apps:
+  - title: "Design Principles Gallery"
+    image: "/images/websnap2.jpg"
+    url: "https://design-principles.onrender.com/"
+    repo: "https://github.com/1309928130/design-principles"
+    description: "Interactive gallery of design principles for fluctuation-responsive station areas"
+
+  - title: "Dutch Sentence Trainer"
+    image: "/images/portfolio/dutch-trainer.svg"
+    url: "https://dutch-sentence-trainer.web.app/"
+    repo: "https://github.com/1309928130/dutch-trainer"
+    description: "Delftse methode Dutch listening, translation, and progress tracking"

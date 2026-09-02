@@ -31,6 +31,14 @@ Software (Rhino Plugins) developed
 
 
 
+Digital portfolio
+======
+
+Small web apps and interactive tools built for research and learning. Click an image to open the live project.
+
+{% include digital-portfolio-gallery.html %}
+
+
 
 Research outcomes
 ======
@@ -43,7 +51,7 @@ Research outcomes
 [![](/images/8_assessmentframework.jpg)](https://www.sciencedirect.com/science/article/pii/S0195925524002725)
 
 - [Design Principles for Demand-Responsive Railway Station Areas](https://www.researchgate.net/publication/387495830_Investigating_the_Design_Principles_for_Fluctuation-Supportive_Railway_Station_Areas)
-[![](/images/websnap2.jpg)](http://c1309928130.pythonanywhere.com/?dimension=All)
+[![](/images/websnap2.jpg)](https://design-principles.onrender.com/)
 
 
 - [Station City Integration in China: Towards Mobility Resilience and Public Space Flexibility](https://research.tudelft.nl/en/publications/station-city-integration-in-china-towards-mobility-resilience-and)
