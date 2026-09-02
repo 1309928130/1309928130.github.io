@@ -9,7 +9,7 @@
 
 apps:
   - title: "Design Principles Gallery"
-    image: "/images/portfolio/design-principles.svg"
+    image: "/images/portfolio/design_principles.png"
     url: "https://design-principles.onrender.com/"
     repo: "https://github.com/1309928130/design-principles"
     description: "Interactive gallery of design principles for fluctuation-responsive station areas"
