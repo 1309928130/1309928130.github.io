@@ -1,6 +1,6 @@
 ---
 permalink: /digital-portfolio/
-title: "Digital Portfolio"
+title: "Computational Portfolio"
 author_profile: true
 ---
 
