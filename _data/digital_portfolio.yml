@@ -55,3 +55,19 @@ apps:
     url: "https://github.com/1309928130/TOOLS_images-to-pdf"
     repo: "https://github.com/1309928130/TOOLS_images-to-pdf"
     description: "Batch convert images in a folder to individual PDF files"
+
+  - title: "PandaModeling"
+    image: "/images/panda_modeling.png"
+    url: "https://www.food4rhino.com/en/app/pandamodeling-ai-modeling"
+    description: "Rhino plugin to automatically measure density-related values"
+
+  - title: "PandaMeasuring"
+    image: "/images/PandaCalculator.png"
+    url: "https://www.food4rhino.com/en/app/pandameasuring"
+    description: "Rhino plugin using agent-based simulation to assess pedestrian experiences"
+
+  - title: "PandaAnalytics"
+    image: "/images/PandaAnalytics.png"
+    url: "https://www.food4rhino.com/en/app/pandaanalytics"
+    repo: "https://github.com/1309928130/donation/blob/main/PandaAnalytics.md"
+    description: "Rhino plugin to generate models using large language models"
