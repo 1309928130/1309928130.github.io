@@ -1,11 +1,11 @@
 {% include base_path %}
 
 <style>
-  .digital-portfolio-section {
+  .computational-portfolio-section {
     margin: 2rem 0 2.5rem;
   }
 
-  .digital-portfolio-section-title {
+  .computational-portfolio-section-title {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
@@ -14,27 +14,27 @@
     border-bottom: 2px solid #222;
   }
 
-  .digital-portfolio-gallery {
+  .computational-portfolio-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
     margin: 0 0 0.5rem;
   }
 
-  .digital-portfolio-item {
+  .computational-portfolio-item {
     position: relative;
     width: 220px;
     z-index: 1;
   }
 
-  .digital-portfolio-link {
+  .computational-portfolio-link {
     display: block;
     text-decoration: none;
     color: inherit;
     position: relative;
   }
 
-  .digital-portfolio-item img {
+  .computational-portfolio-item img {
     display: block;
     width: 220px;
     height: 150px;
@@ -45,16 +45,16 @@
     background: #f8f8f8;
   }
 
-  .digital-portfolio-item:hover {
+  .computational-portfolio-item:hover {
     z-index: 2;
   }
 
-  .digital-portfolio-item:hover img {
+  .computational-portfolio-item:hover img {
     transform: scale(1.04);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   }
 
-  .digital-portfolio-label {
+  .computational-portfolio-label {
     display: block;
     margin-top: 8px;
     font-size: 0.95rem;
@@ -63,7 +63,7 @@
     line-height: 1.3;
   }
 
-  .digital-portfolio-link-label {
+  .computational-portfolio-link-label {
     display: block;
     margin-top: 4px;
     font-size: 0.8rem;
@@ -71,7 +71,7 @@
     color: #555;
   }
 
-  .digital-portfolio-tooltip {
+  .computational-portfolio-tooltip {
     position: absolute;
     top: 0;
     left: 0;
@@ -90,12 +90,12 @@
     z-index: 3;
   }
 
-  .digital-portfolio-item:hover .digital-portfolio-tooltip {
+  .computational-portfolio-item:hover .computational-portfolio-tooltip {
     visibility: visible;
     opacity: 1;
   }
 
-  .digital-portfolio-tooltip-desc {
+  .computational-portfolio-tooltip-desc {
     margin: 0;
     font-family: "Roboto", Arial, sans-serif;
     font-size: 12px;
@@ -105,27 +105,27 @@
   }
 </style>
 
-{% for category in site.data.digital_portfolio.categories %}
-  <section class="digital-portfolio-section">
-    <h2 class="digital-portfolio-section-title">{{ category.name }}</h2>
-    <div class="digital-portfolio-gallery">
+{% for category in site.data.computational_portfolio.categories %}
+  <section class="computational-portfolio-section">
+    <h2 class="computational-portfolio-section-title">{{ category.name }}</h2>
+    <div class="computational-portfolio-gallery">
       {% for app in category.apps %}
-        <div class="digital-portfolio-item">
-          <a class="digital-portfolio-link"
+        <div class="computational-portfolio-item">
+          <a class="computational-portfolio-link"
              href="{{ app.url }}"
              target="_blank"
              rel="noopener noreferrer">
             <img src="{{ app.image | prepend: base_path }}"
                  alt="{{ app.title }}">
             {% if app.description %}
-              <div class="digital-portfolio-tooltip">
-                <p class="digital-portfolio-tooltip-desc">{{ app.description }}</p>
+              <div class="computational-portfolio-tooltip">
+                <p class="computational-portfolio-tooltip-desc">{{ app.description }}</p>
               </div>
             {% endif %}
           </a>
-          <span class="digital-portfolio-label">{{ app.title }}</span>
+          <span class="computational-portfolio-label">{{ app.title }}</span>
           {% if app.link %}
-            <a class="digital-portfolio-link-label" href="{{ app.link.url }}" target="_blank" rel="noopener noreferrer">{{ app.link.label }}{% if app.link.private %} (private){% endif %} ↗</a>
+            <a class="computational-portfolio-link-label" href="{{ app.link.url }}" target="_blank" rel="noopener noreferrer">{{ app.link.label }}{% if app.link.private %} (private){% endif %} ↗</a>
           {% endif %}
         </div>
       {% endfor %}
