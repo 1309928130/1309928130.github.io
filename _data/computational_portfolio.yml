@@ -79,6 +79,14 @@ categories:
           label: "Firebase"
         description: "Optiver online assessment practice questions and progress tracking"
 
+      - title: "LeetCode Trainer"
+        image: "/images/portfolio/leetcode-trainer.svg"
+        url: "https://github.com/1309928130/leetcode-trainer"
+        link:
+          url: "https://github.com/1309928130/leetcode-trainer"
+          label: "GitHub"
+        description: "Local LeetCode-style practice app that judges your Python with a real CPython interpreter"
+
       - title: "Scroll Capture"
         image: "/images/portfolio/scroll_snap.png"
         url: "https://github.com/1309928130/TOOLS_scroll-capture"
