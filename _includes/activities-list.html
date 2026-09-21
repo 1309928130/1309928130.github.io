@@ -21,8 +21,11 @@
   }
 
   .activities-item {
-    margin: 0 0 1.25rem;
-    padding: 0 0 1.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.25rem;
+    margin: 0 0 1.5rem;
+    padding: 0 0 1.35rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
 
@@ -31,33 +34,45 @@
     padding-bottom: 0;
   }
 
-  .activities-item-title {
-    margin: 0 0 0.25rem;
-    font-size: 1.05rem;
-    font-weight: 600;
-    line-height: 1.35;
+  .activities-item-body {
+    flex: 1 1 280px;
+    min-width: 0;
   }
 
-  .activities-item-title a {
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .activities-item-title a:hover {
-    text-decoration: underline;
-  }
-
-  .activities-item-meta {
+  .activities-item-date {
     margin: 0 0 0.35rem;
-    font-size: 0.9rem;
-    color: #555;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
   }
 
   .activities-item-desc {
     margin: 0;
     font-size: 0.95rem;
-    line-height: 1.45;
+    line-height: 1.5;
     color: #333;
+  }
+
+  .activities-item-desc p {
+    margin: 0;
+  }
+
+  .activities-item-media {
+    flex: 0 0 auto;
+  }
+
+  .activities-item-media img,
+  .activities-item-media a {
+    display: block;
+  }
+
+  .activities-item-media img {
+    width: 220px;
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
   }
 
   .activities-empty {
@@ -66,49 +81,47 @@
     color: #777;
     font-style: italic;
   }
+
+  @media (max-width: 600px) {
+    .activities-item-media {
+      width: 100%;
+    }
+
+    .activities-item-media img {
+      width: 100%;
+      height: auto;
+      max-height: 220px;
+    }
+  }
 </style>
 
 {% for section in site.data.activities.sections %}
   <section class="activities-section">
     <h2 class="activities-section-title">{{ section.name }}</h2>
-    {% assign has_items = false %}
-    {% for item in section.items %}
-      {% if item.title %}
-        {% assign has_items = true %}
-      {% endif %}
-    {% endfor %}
-    {% if has_items %}
+    {% if section.items and section.items.size > 0 %}
       <ul class="activities-list">
         {% for item in section.items %}
-          {% if item.title %}
-            <li class="activities-item">
-              <h3 class="activities-item-title">
-                {% if item.url %}
-                  <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
-                {% else %}
-                  {{ item.title }}
-                {% endif %}
-              </h3>
-              {% if item.role or item.venue or item.date %}
-                <p class="activities-item-meta">
-                  {% assign meta_parts = "" %}
-                  {% if item.role %}{% assign meta_parts = item.role %}{% endif %}
-                  {% if item.venue %}
-                    {% if meta_parts != "" %}{% assign meta_parts = meta_parts | append: " · " %}{% endif %}
-                    {% assign meta_parts = meta_parts | append: item.venue %}
-                  {% endif %}
-                  {% if item.date %}
-                    {% if meta_parts != "" %}{% assign meta_parts = meta_parts | append: " · " %}{% endif %}
-                    {% assign meta_parts = meta_parts | append: item.date %}
-                  {% endif %}
-                  {{ meta_parts }}
-                </p>
+          <li class="activities-item">
+            <div class="activities-item-body">
+              {% if item.date %}
+                <p class="activities-item-date">{{ item.date }}</p>
               {% endif %}
               {% if item.description %}
-                <p class="activities-item-desc">{{ item.description }}</p>
+                <div class="activities-item-desc">{{ item.description | markdownify }}</div>
               {% endif %}
-            </li>
-          {% endif %}
+            </div>
+            {% if item.image %}
+              <div class="activities-item-media">
+                {% if item.url %}
+                  <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ item.image | prepend: base_path }}" alt="{{ item.date }}">
+                  </a>
+                {% else %}
+                  <img src="{{ item.image | prepend: base_path }}" alt="{{ item.date }}">
+                {% endif %}
+              </div>
+            {% endif %}
+          </li>
         {% endfor %}
       </ul>
     {% else %}

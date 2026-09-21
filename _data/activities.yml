@@ -1,17 +1,73 @@
 # Activities page content.
-# Each item: title (required), optional role, venue, date, description, url
-#
-# Example:
-#   - title: "Course name"
-#     role: "Teaching assistant"
-#     venue: "TU Delft"
-#     date: "2024"
-#     description: "Short description of your role."
-#     url: "https://example.com"
+# Each item: date, description (Markdown), optional image, optional url
 
 sections:
   - name: "Teaching activities"
-    items: []
+    items:
+      - date: "Sep 2026"
+        description: >-
+          Gave a lecture in the Master's program
+          [MADE](https://www.ams-institute.org/education/msc-metropolitan-analysis-design-and-engineering/)
+          at the Amsterdam Institute for Advanced Metropolitan Solutions
+          ([AMS](https://www.ams-institute.org/)).
+
+      - date: "Jan–May 2026"
+        description: >-
+          Served as the daily supervisor in the Bachelor's End Project
+          (Bachelor's graduating thesis) for a group of 6 students, at the
+          Transport Planning Department, Civil Engineering Faculty, TU Delft.
+
+      - date: "17–21 Mar 2025"
+        description: >-
+          Served as a critic in an international workshop:
+          [Reimagining Architecture of Interchange](https://www.tudelft.nl/bk/over-faculteit/afdelingen/architecture/organisatie-1/secties-en-groepen-nieuw/building-knowledge/complex-projects/research-publications/reimagining-the-architecture-of-interchanges).
+          For a group of 35 students in the [ATHENS Network](http://athensnetwork.eu/).
+          TU Delft, the Netherlands.
+        image: "/images/activities/reimagining-architecture-interchange-2025.jpg"
+        url: "https://www.tudelft.nl/bk/over-faculteit/afdelingen/architecture/organisatie-1/secties-en-groepen-nieuw/building-knowledge/complex-projects/research-publications/reimagining-the-architecture-of-interchanges"
+
+      - date: "Mar 2025"
+        description: >-
+          (Online) Co-tutoring in a course: How to expand your discipline and
+          keep it relevant in transformative times. Tongji University, Shanghai, China.
+
+      - date: "25 Sep 2024"
+        description: >-
+          Organized workshop:
+          [Fluctuation-responsive railway station](https://www.linkedin.com/posts/enshan-chen-0a8621120_urbandesign-landscape-architecture-activity-7245185264665387010-F92a).
+          TU Delft, the Netherlands.
+        image: "/images/activities/reimagining-architecture-interchange-2025.jpg"
+        url: "https://www.linkedin.com/posts/enshan-chen-0a8621120_urbandesign-landscape-architecture-activity-7245185264665387010-F92a"
+
+      - date: "22 Jun 2024"
+        description: >-
+          Presented lecture: Station-City Integration, towards the Dynamic Model:
+          The problems, assessment, and guidelines. Active Mode Lab, Faculty of
+          Civil Engineering and Geosciences, TU Delft, the Netherlands.
+        image: "/images/activities/station-city-integration-lecture-2024.jpg"
 
   - name: "Others"
-    items: []
+    items:
+      - date: "1 Jul 2026"
+        description: >-
+          Presented at the
+          [XCARCITY WP6 Federated Digital Twin Workshop](https://xcarcity.nl/news/xcarcity-wp6-federated-digital-twin-workshop/),
+          introducing digital twin use cases and modelling frameworks developed
+          within the XCARCITY project.
+        image: "/images/activities/xcarcity-federated-digital-twin-2026.jpg"
+        url: "https://xcarcity.nl/news/xcarcity-wp6-federated-digital-twin-workshop/"
+
+      - date: "15 Apr 2024"
+        description: >-
+          Participant in serious game: Crossing the Farm (a board game testing
+          how the food system might form a future self-sustainable city, with
+          participation of multiple stakeholders). Rotterdam, the Netherlands.
+
+      - date: "12 Mar 2024"
+        description: >-
+          Participant in workshop: Low carbon stations. TU Delft, the Netherlands.
+
+      - date: "16 Nov 2023"
+        description: >-
+          Attended conference: National Stations Congress.
+          's-Hertogenbosch, the Netherlands.
