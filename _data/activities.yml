@@ -4,6 +4,12 @@
 sections:
   - name: "Teaching activities"
     items:
+      - date: "22 Sep 2026"
+        description: >-
+          Gave a lecture on federated digital twins for multisensory assessment
+          of urban design in *Seminars in Mobiliteit & Transport* (Minor),
+          Flux Hall D, TU Delft.
+
       - date: "14 Sep 2026"
         description: >-
           Gave a lecture in the Master's program
