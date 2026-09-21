@@ -133,7 +133,10 @@ sections:
 
       - date: "12 Mar 2024"
         description: >-
-          Participant in workshop: Low carbon stations. TU Delft, the Netherlands.
+          Participant in workshop:
+          [Low carbon stations](https://research.tudelft.nl/en/activities/low-carbon-stations-workshop/).
+          TU Delft, the Netherlands.
+        url: "https://research.tudelft.nl/en/activities/low-carbon-stations-workshop/"
 
       - date: "16 Nov 2023"
         description: >-
