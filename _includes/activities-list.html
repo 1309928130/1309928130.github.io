@@ -2,14 +2,14 @@
 
 <style>
   .activities-section {
-    margin: 2rem 0 2.5rem;
+    margin: 1.5rem 0 2rem;
   }
 
   .activities-section-title {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    margin: 0 0 1rem;
+    margin: 0 0 0.85rem;
     padding-bottom: 0.35rem;
     border-bottom: 2px solid #222;
   }
@@ -21,44 +21,36 @@
   }
 
   .activities-item {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem 1.25rem;
-    margin: 0 0 1.5rem;
-    padding: 0 0 1.35rem;
+    display: grid;
+    grid-template-columns: 9.5rem minmax(0, 1fr) auto;
+    gap: 0.75rem 1.15rem;
+    align-items: start;
+    margin: 0;
+    padding: 0.7rem 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   }
 
   .activities-item:last-child {
     border-bottom: none;
-    padding-bottom: 0;
-  }
-
-  .activities-item-body {
-    flex: 1 1 280px;
-    min-width: 0;
   }
 
   .activities-item-date {
-    margin: 0 0 0.35rem;
+    margin: 0;
     font-size: 0.95rem;
     font-weight: 700;
+    line-height: 1.45;
     color: #222;
   }
 
   .activities-item-desc {
     margin: 0;
     font-size: 0.95rem;
-    line-height: 1.5;
+    line-height: 1.45;
     color: #333;
   }
 
   .activities-item-desc p {
     margin: 0;
-  }
-
-  .activities-item-media {
-    flex: 0 0 auto;
   }
 
   .activities-item-media img,
@@ -67,9 +59,8 @@
   }
 
   .activities-item-media img {
-    width: 220px;
-    max-width: 100%;
-    height: 150px;
+    width: 160px;
+    height: 110px;
     object-fit: cover;
     border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 4px;
@@ -82,15 +73,30 @@
     font-style: italic;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 720px) {
+    .activities-item {
+      grid-template-columns: 7.5rem minmax(0, 1fr);
+    }
+
     .activities-item-media {
-      width: 100%;
+      grid-column: 1 / -1;
     }
 
     .activities-item-media img {
       width: 100%;
       height: auto;
-      max-height: 220px;
+      max-height: 200px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .activities-item {
+      grid-template-columns: 1fr;
+      gap: 0.35rem;
+    }
+
+    .activities-item-date {
+      margin-bottom: 0.1rem;
     }
   }
 </style>
@@ -102,14 +108,16 @@
       <ul class="activities-list">
         {% for item in section.items %}
           <li class="activities-item">
-            <div class="activities-item-body">
-              {% if item.date %}
-                <p class="activities-item-date">{{ item.date }}</p>
-              {% endif %}
-              {% if item.description %}
-                <div class="activities-item-desc">{{ item.description | markdownify }}</div>
-              {% endif %}
-            </div>
+            {% if item.date %}
+              <p class="activities-item-date">{{ item.date }}</p>
+            {% else %}
+              <p class="activities-item-date"></p>
+            {% endif %}
+            {% if item.description %}
+              <div class="activities-item-desc">{{ item.description | markdownify }}</div>
+            {% else %}
+              <div class="activities-item-desc"></div>
+            {% endif %}
             {% if item.image %}
               <div class="activities-item-media">
                 {% if item.url %}
