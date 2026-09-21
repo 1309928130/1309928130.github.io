@@ -9,9 +9,6 @@ main:
   - title: "Design Portfolio"
     url: /design-portfolio/
 
-  - title: "Activities"
-    url: /activities/
-
 #  - title: "Talks"
 #    url: /talks/
 #
@@ -28,6 +25,9 @@ main:
 
   - title: "CV"
     url: /cv/
+
+  - title: "Activities"
+    url: /activities/
     
 #  - title: "Guide"
 #    url: /markdown/

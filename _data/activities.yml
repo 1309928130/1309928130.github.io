@@ -47,6 +47,16 @@ sections:
 
   - name: "Other activities"
     items:
+      - date: "7 Sep 2026"
+        description: >-
+          Defended PhD dissertation at TU Delft:
+          *Towards Flexible Uses of railway station areas that promote Station-City
+          Integration: The spatial relevance, design, and assessment*
+          ([LinkedIn announcement](https://www.linkedin.com/posts/enshan-chen-0a8621120_on-7th-september-2026-i-defended-my-phd-activity-7504475284784664576-HhEF)).
+          Supervised by Stefan van der Spek, Manuela Triggianese, and Frank van der Hoeven.
+        image: "/images/activities/phd-defense-2026.jpg"
+        url: "https://www.linkedin.com/posts/enshan-chen-0a8621120_on-7th-september-2026-i-defended-my-phd-activity-7504475284784664576-HhEF"
+
       - date: "1 Jul 2026"
         description: >-
           Presented at the
