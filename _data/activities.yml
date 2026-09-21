@@ -74,6 +74,19 @@ sections:
         image: "/images/activities/xcarcity-consortium-meeting-2026.jpg"
         url: "https://xcarcity.nl/news/xcarcity-consortium-meeting-2/"
 
+      - date: "6–10 Nov 2024"
+        description: >-
+          Attended and presented at the
+          [Association of Collegiate Schools of Planning (ACSP) 2024](https://www.linkedin.com/posts/enshan-chen-0a8621120_from-nov-6th-10th-i-attended-the-association-activity-7262822371835752449-mDlz)
+          conference in Seattle, USA. Presented work on using simulation to evaluate
+          urban design performance against user needs in railway station areas
+          ([paper](https://doi.org/10.1016/j.eiar.2024.107685)).
+          The study also explores AI methods including YOLO-based pedestrian counting,
+          street-view image segmentation, and neural networks relating street elements
+          to user scoring.
+        image: "/images/activities/acsp-2024-seattle.jpg"
+        url: "https://www.linkedin.com/posts/enshan-chen-0a8621120_from-nov-6th-10th-i-attended-the-association-activity-7262822371835752449-mDlz"
+
       - date: "15 Apr 2024"
         description: >-
           Participant in serious game: Crossing the Farm (a board game testing
