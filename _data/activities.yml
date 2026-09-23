@@ -4,12 +4,6 @@
 sections:
   - name: "Teaching activities"
     items:
-      - date: "23 Sep 2026"
-        description: >-
-          Introduced building digital twins to a multidisciplinary Arup team of
-          developers, computational designers, urban designers, and transport
-          planners (online).
-
       - date: "22 Sep 2026"
         description: >-
           Gave a lecture on federated digital twins for multisensory assessment
@@ -64,6 +58,12 @@ sections:
 
   - name: "Other activities"
     items:
+      - date: "23 Sep 2026"
+        description: >-
+          Introduced building digital twins to a multidisciplinary Arup team of
+          developers, computational designers, urban designers, and transport
+          planners (online).
+
       - date: "7 Sep 2026"
         description: >-
           Defended PhD dissertation at TU Delft:
