@@ -22,9 +22,9 @@ repository               : "1309928130/1309928130.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Enshan Chen"
-  pronouns         : # example: "she/her"  
-  bio              : "PhD candidate in Architecture and Built Environment Faculty"
+  name             : "Dr. Enshan Chen"
+  pronouns         : # example: "she/her"
+  bio              : "A researcher, engineer, and designer"
   location         : "The Netherlands"
   employer         : "TU Delft"
   uri              : # URL
